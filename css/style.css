@@ -1,0 +1,21 @@
+:root {
+  /* variavel para responsividade */
+  --tela-width: 100vw;
+  /* variavel para alteração de imagens para gerar slide */
+  --tela-bg: url("../imagens/01.jpg");
+}
+
+#slidePart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: var(--tela-width);
+  background-color: red;
+  background-image: var(--tela-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  transition: all 1s ease;
+}
